@@ -27,7 +27,7 @@ uint8_t compare_string(char text1[],const char text2[], uint8_t count, const uin
 void reset_string(volatile char tekst[],volatile uint8_t count); //reset char array
 uint8_t find_command(char text[], uint8_t count);
 uint16_t value_reader(char text[], uint8_t count);
-void uart_transmit_int(uint16_t liczba);
+void uart_transmit_int(uint16_t number);
 
 
 
